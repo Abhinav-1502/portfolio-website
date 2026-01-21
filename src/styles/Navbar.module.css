@@ -23,8 +23,9 @@
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: 'Optima', sans-serif;
   /* Gradient text */
   background: linear-gradient(to right, #fff, #ccc);
   -webkit-background-clip: text;
