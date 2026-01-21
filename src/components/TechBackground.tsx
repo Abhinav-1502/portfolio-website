@@ -104,6 +104,11 @@ const techStack: TechItem[] = [
     description: 'Leveraging advanced SQL features, reliable transactions, and extensions for sophisticated data modeling needs.' 
   },
   { 
+    icon: 'aws', 
+    name: 'AWS', 
+    description: 'Deploying and managing scalable cloud infrastructure using services like EC2, S3, Lambda, and RDS for reliable, distributed applications.' 
+  },
+  { 
     icon: 'git', 
     name: 'Git', 
     description: 'Managing version control effectively with branching, merging, and collaborative workflows to track code changes.' 
