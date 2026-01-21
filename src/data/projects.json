@@ -1,0 +1,104 @@
+[
+  {
+    "author": "Abhinav-1502",
+    "name": "Find-a-roomie",
+    "description": "",
+    "language": "TypeScript",
+    "languageColor": "#3178c6",
+    "stars": 0,
+    "forks": 0,
+    "generatedDescription": "FindRoomie is an innovative web platform designed to connect students and young professionals with compatible roommates while facilitating room listings and local housing exploration. By streamlining the search process and offering features like real-time messaging and multilingual support, it addresses the challenges of finding suitable living arrangements.",
+    "techStack": [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "React",
+      "MongoDB"
+    ]
+  },
+  {
+    "author": "Abhinav-1502",
+    "name": "RAG-ChatBOT",
+    "description": "Retrieval Augemented Generation powered ChatBoT using AKKA Architecture built in Spring Framework - JAVA",
+    "language": "Java",
+    "languageColor": "#b07219",
+    "stars": 1,
+    "forks": 0,
+    "generatedDescription": "RAG-ChatBOT is a high-performance, concurrent ChatBot that utilizes Retrieval Augmented Generation (RAG) to provide context-aware responses based on indexed documents. By leveraging Akka Architecture and Spring Boot, it combines the power of Large Language Models and vector databases to ensure accurate and grounded answers in real-time conversations.",
+    "techStack": [
+      "Java 17",
+      "Spring Boot",
+      "Akka",
+      "Qdrant",
+      "Apache Lucene"
+    ]
+  },
+  {
+    "author": "Abhinav-1502",
+    "name": "AI-Video-Analyzer",
+    "description": "",
+    "language": "Python",
+    "languageColor": "#3572A5",
+    "stars": 0,
+    "forks": 0,
+    "generatedDescription": "AI Video Analyzer is an innovative asynchronous service that leverages Google's Gemini AI to automate the analysis of student video submissions. By generating custom rubrics and providing detailed feedback, it alleviates the grading burden for educators while enhancing the assessment experience for students.",
+    "techStack": [
+      "Python",
+      "Celery",
+      "RabbitMQ",
+      "Docker",
+      "Google Gemini API"
+    ]
+  },
+  {
+    "author": "Abhinav-1502",
+    "name": "CoupleSnap",
+    "description": "",
+    "language": "TypeScript",
+    "languageColor": "#3178c6",
+    "stars": 0,
+    "forks": 0,
+    "generatedDescription": "CoupleSnap is a unique photo-centric messaging app designed for couples, enhancing communication through selfies and customizable text overlays, promoting a shared stream of memorable moments. It aims to foster authentic visual interactions while prioritizing privacy and intimacy.",
+    "techStack": [
+      "React Native",
+      "TypeScript",
+      "Firebase",
+      "Zustand",
+      "Expo"
+    ]
+  },
+  {
+    "author": "Abhinav-1502",
+    "name": "Edura-AI-Avatar",
+    "description": "Edura Avatar",
+    "language": "TypeScript",
+    "languageColor": "#3178c6",
+    "stars": 0,
+    "forks": 0,
+    "generatedDescription": "Edura-Avatar is an interactive educational platform that utilizes an AI-powered avatar to provide engaging conversational learning, homework assistance, and comprehensive topic exploration. By leveraging real-time streaming technology, it addresses the need for personalized educational support in a dynamic and interactive format.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "Python",
+      "Docker"
+    ]
+  },
+  {
+    "author": "Abhinav-1502",
+    "name": "SplitWise-Clone",
+    "description": "",
+    "language": "Java",
+    "languageColor": "#b07219",
+    "stars": 0,
+    "forks": 0,
+    "generatedDescription": "SplitWise Clone is a full-stack web application designed to help users manage shared expenses effortlessly. It enables users to create groups, track expenses, and settle debts, making it easy to keep financial matters transparent among friends and family.",
+    "techStack": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "JSP",
+      "Maven"
+    ]
+  }
+]

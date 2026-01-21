@@ -1,66 +1,48 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import About from '@/components/About';
+import Experience from '@/components/Experience';
+import Projects from '@/components/Projects';
+
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main>
+      <Navbar />
+      <Hero />
+      <About />
+      <Experience />
+      
+      {/* Featured Projects Section (Placeholder) */}
+
+      <Projects />
+
+      {/* Contact Section (Placeholder) */}
+      <section id="contact" style={{ 
+        padding: '120px 24px',
+        textAlign: 'center' 
+      }}>
+         <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>Get In Touch</h2>
+         <p style={{ 
+           color: 'var(--text-secondary)', 
+           maxWidth: '600px', 
+           margin: '0 auto 2rem',
+           fontSize: '1.1rem'
+         }}>
+           I&apos;m currently looking for new opportunities. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
+         </p>
+         <a href="mailto:hello@example.com" style={{
+           display: 'inline-block',
+           padding: '14px 36px',
+           border: '1px solid var(--text-accent)',
+           color: 'var(--text-accent)',
+           borderRadius: '8px',
+           fontWeight: '600',
+           fontSize: '1rem'
+         }}>
+           Say Hello
+         </a>
+      </section>
+    </main>
   );
 }
