@@ -41,6 +41,31 @@ export const experiences: ExperienceItem[] = [
     ]
   },
   {
+    id: 'neu-ta',
+    role: 'Graduate Teaching Assistant (Intro to AI Agents)',
+    company: 'Northeastern University',
+    location: 'Boston, MA',
+    period: 'May 2025 – Aug 2025',
+    points: [
+      {
+        summary: 'Mentored graduate students on LLMs, RAG, and Multi-Agent Architectures.',
+        detail: 'Mentored a cohort of graduate students in the "Intro to AI Agents" course, facilitating the conceptual understanding of Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and Multi-Agent Architectures.'
+      },
+      {
+        summary: 'Led labs on GenAI agent implementation using Python, LangChain, and OpenAI APIs.',
+        detail: 'Led interactive laboratory sessions demonstrating Generative AI workflows, guiding students through the hands-on implementation of autonomous agents using Python and LangChain/OpenAI APIs.'
+      },
+      {
+        summary: 'Evaluated complex code and provided feedback on prompt engineering and system design.',
+        detail: 'Evaluated complex code-based assignments and final projects, providing granular feedback on prompt engineering, algorithm efficiency, and system design to foster technical growth.'
+      },
+      {
+        summary: 'Refined lab materials for vector database integration and agentic state management.',
+        detail: 'Collaborated with faculty to refine lab materials and debugging guides for agentic workflows, helping students overcome common challenges in vector database integration and state management.'
+      }
+    ]
+  },
+  {
     id: 'northeastern',
     role: 'Full Stack Developer Intern',
     company: 'Northeastern University',
