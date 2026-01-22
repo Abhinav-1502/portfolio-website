@@ -68,6 +68,14 @@ const Hero = () => {
               View Work
             </Link>
             <Link 
+              href="/Resume_9.pdf" 
+              className={styles.secondaryButton}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Resume
+            </Link>
+            <Link 
               href="#contact" 
               className={styles.secondaryButton}
               onClick={(e) => handleSmoothScroll(e, '#contact')}
