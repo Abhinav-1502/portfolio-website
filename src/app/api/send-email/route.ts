@@ -7,6 +7,12 @@ export async function POST(request: NextRequest) {
   try {
     const { name, email, message } = await request.json();
 
+    if (!process.env.RESEND_API_KEY) {
+      return NextResponse.json(
+        { error: 'Resend API key is not configured' },
+        { status: 500 }
+      );
+    }
     // Validate input
     if (!name || !email || !message) {
       return NextResponse.json(
