@@ -18,7 +18,11 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.content}>
-        <Link href="/" className={styles.logo}>
+        <Link 
+          href="/" 
+          className={styles.logo}
+          onClick={(e) => handleSmoothScroll(e, '#hero')}
+        >
           AE
         </Link>
         <ul className={styles.links}>
@@ -33,20 +37,20 @@ const Navbar = () => {
           </li>
           <li>
             <Link 
-              href="#projects" 
-              className={styles.link}
-              onClick={(e) => handleSmoothScroll(e, '#projects')}
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link 
               href="#experience" 
               className={styles.link}
               onClick={(e) => handleSmoothScroll(e, '#experience')}
             >
               Experience
+            </Link>
+          </li>
+          <li>
+            <Link 
+              href="#projects" 
+              className={styles.link}
+              onClick={(e) => handleSmoothScroll(e, '#projects')}
+            >
+              Projects
             </Link>
           </li>
           <li>

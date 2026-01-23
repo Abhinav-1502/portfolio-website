@@ -20,7 +20,7 @@ const Hero = () => {
   };
 
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id="hero">
       <div className={styles.background} />
       <TechBackground />
       
