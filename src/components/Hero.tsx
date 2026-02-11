@@ -20,7 +20,7 @@ const Hero = () => {
   };
 
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id="hero">
       <div className={styles.background} />
       <TechBackground />
       
@@ -66,6 +66,14 @@ const Hero = () => {
               onClick={(e) => handleSmoothScroll(e, '#projects')}
             >
               View Work
+            </Link>
+            <Link 
+              href="/Resume_9.pdf" 
+              className={styles.secondaryButton}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Resume
             </Link>
             <Link 
               href="#contact" 
