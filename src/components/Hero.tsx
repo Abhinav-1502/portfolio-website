@@ -68,7 +68,7 @@ const Hero = () => {
               View Work
             </Link>
             <Link 
-              href="/Resume_9.pdf" 
+              href="/Resume_9.1_Standard_SDE.pdf "
               className={styles.secondaryButton}
               target="_blank"
               rel="noopener noreferrer"
