@@ -45,8 +45,17 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link 
-              href="#projects" 
+            <Link
+              href="#education"
+              className={styles.link}
+              onClick={(e) => handleSmoothScroll(e, '#education')}
+            >
+              Education
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#projects"
               className={styles.link}
               onClick={(e) => handleSmoothScroll(e, '#projects')}
             >

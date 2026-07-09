@@ -23,7 +23,7 @@ const About = () => {
     },
     {
       id: 'system-designer',
-      title: 'System Designer',
+      title: 'System Architect',
       summary: 'I love breaking down complex systems into clear, understandable components. From high-level architecture with cloud technologies to low-level design patterns following industry standards, I find elegance in well-structured systems.'
     },
     {

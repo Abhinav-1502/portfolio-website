@@ -2,6 +2,7 @@
 'use client';
 import { useState } from 'react';
 import { experiences } from '../data/experience';
+import { education } from '../data/education';
 import styles from '../styles/Experience.module.css';
 
 const Experience = () => {
@@ -59,6 +60,28 @@ const Experience = () => {
                     );
                   })}
                 </ul>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className={styles.header} id="education" style={{ marginTop: '5rem' }}>
+          <h2 className={styles.title}>Education</h2>
+        </div>
+
+        <div className={styles.timeline}>
+          {education.map((edu) => (
+            <div key={edu.id} className={styles.card}>
+              <div className={styles.cardContent}>
+                <h3 className={styles.role}>{edu.degree}</h3>
+                <div className={styles.companyGroup}>
+                  <span className={styles.company}>{edu.school}</span>
+                  <div className={styles.meta}>
+                    <span>{edu.period}</span>
+                    <span>•</span>
+                    <span>{edu.location}</span>
+                  </div>
+                </div>
               </div>
             </div>
           ))}

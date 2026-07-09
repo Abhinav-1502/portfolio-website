@@ -7,13 +7,13 @@
     "languageColor": "#3178c6",
     "stars": 0,
     "forks": 0,
-    "generatedDescription": "FindRoomie is an innovative web platform designed to connect students and young professionals with compatible roommates while facilitating room listings and local housing exploration. By streamlining the search process and offering features like real-time messaging and multilingual support, it addresses the challenges of finding suitable living arrangements.",
+    "generatedDescription": "FindRoomie is a full-stack application designed as a JavaScript/TypeScript monorepo featuring a Node.js Express backend leveraging MongoDB for data persistence, and a React + Redux frontend focused on real-time roommate discovery and listing management. It implements advanced functionalities such as real-time messaging with Socket.IO, internationalization with i18next, and progressive enhancements to provide an interactive user experience, while addressing common engineering challenges like state management and seamless API integration.",
     "techStack": [
-      "JavaScript",
-      "TypeScript",
       "Node.js",
       "React",
-      "MongoDB"
+      "Express",
+      "MongoDB",
+      "Socket.IO"
     ]
   },
   {
@@ -24,11 +24,11 @@
     "languageColor": "#b07219",
     "stars": 1,
     "forks": 0,
-    "generatedDescription": "RAG-ChatBOT is a high-performance, concurrent ChatBot that utilizes Retrieval Augmented Generation (RAG) to provide context-aware responses based on indexed documents. By leveraging Akka Architecture and Spring Boot, it combines the power of Large Language Models and vector databases to ensure accurate and grounded answers in real-time conversations.",
+    "generatedDescription": "RAG-ChatBOT implements a high-performance conversational agent utilizing a Retrieval-Augmented Generation (RAG) architecture, integrating Akka's Actor Model for concurrent processing and Spring Boot for RESTful services. The system efficiently combines query rewriting, vector similarity search with Qdrant, and LLM interaction with OpenAI to deliver contextually relevant and coherent responses.",
     "techStack": [
       "Java 17",
       "Spring Boot",
-      "Akka",
+      "Akka Actor Typed",
       "Qdrant",
       "Apache Lucene"
     ]
@@ -41,13 +41,13 @@
     "languageColor": "#3572A5",
     "stars": 0,
     "forks": 0,
-    "generatedDescription": "AI Video Analyzer is an innovative asynchronous service that leverages Google's Gemini AI to automate the analysis of student video submissions. By generating custom rubrics and providing detailed feedback, it alleviates the grading burden for educators while enhancing the assessment experience for students.",
+    "generatedDescription": "AI Video Analyzer is an asynchronous video analysis service that utilizes Google’s Gemini AI for multimodal evaluation of student homework submissions by dynamically generating grading rubrics and producing detailed feedback reports. The architecture incorporates a modular design with Celery and RabbitMQ for task management, ensuring efficient background processing and separation of concerns between the analysis service and data interactions.",
     "techStack": [
       "Python",
       "Celery",
       "RabbitMQ",
       "Docker",
-      "Google Gemini API"
+      "Pydantic"
     ]
   },
   {
@@ -58,13 +58,13 @@
     "languageColor": "#3178c6",
     "stars": 0,
     "forks": 0,
-    "generatedDescription": "CoupleSnap is a unique photo-centric messaging app designed for couples, enhancing communication through selfies and customizable text overlays, promoting a shared stream of memorable moments. It aims to foster authentic visual interactions while prioritizing privacy and intimacy.",
+    "generatedDescription": "CoupleSnap is a photo-first messaging application designed for couples, leveraging React Native with TypeScript for the frontend, facilitating real-time asynchronous messaging through WebSocket and Firebase backend services that support encrypted photo storage and user presence tracking. The application addresses challenges such as privacy and security by implementing RSA and AES encryption, while optimizing performance with Firebase Analytics and Crashlytics for monitoring user engagement and app stability.",
     "techStack": [
       "React Native",
       "TypeScript",
       "Firebase",
-      "Zustand",
-      "Expo"
+      "Expo",
+      "Zustand"
     ]
   },
   {
@@ -73,14 +73,14 @@
     "description": "Edura Avatar",
     "language": "TypeScript",
     "languageColor": "#3178c6",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
-    "generatedDescription": "Edura-Avatar is an interactive educational platform that utilizes an AI-powered avatar to provide engaging conversational learning, homework assistance, and comprehensive topic exploration. By leveraging real-time streaming technology, it addresses the need for personalized educational support in a dynamic and interactive format.",
+    "generatedDescription": "Edura-Avatar is an AI-driven educational platform utilizing a microservices architecture with a FastAPI backend and a React frontend, enabling interactive learning through real-time avatar streaming from HeyGen. The application addresses engineering challenges such as state management for session control and multimedia integration, facilitating comprehensive conversational learning and homework assistance across multiple subjects.",
     "techStack": [
+      "Python",
+      "FastAPI",
       "React",
       "TypeScript",
-      "FastAPI",
-      "Python",
       "Docker"
     ]
   },
@@ -92,7 +92,7 @@
     "languageColor": "#b07219",
     "stars": 0,
     "forks": 0,
-    "generatedDescription": "SplitWise Clone is a full-stack web application designed to help users manage shared expenses effortlessly. It enables users to create groups, track expenses, and settle debts, making it easy to keep financial matters transparent among friends and family.",
+    "generatedDescription": "SplitWise Clone is a full-stack web application leveraging a Controller-Service-Repository architecture, built with Java and Spring Boot, designed to efficiently manage shared expenses among users. It implements secure user authentication, group management, and automated debt calculations, while addressing common engineering challenges in expense tracking and report generation through PDF export.",
     "techStack": [
       "Java",
       "Spring Boot",
