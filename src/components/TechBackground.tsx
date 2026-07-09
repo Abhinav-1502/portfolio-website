@@ -23,10 +23,15 @@ const techStack: TechItem[] = [
     name: 'Python', 
     description: ' proficient in writing clean, efficient scripts for automation, data analysis, and building powerful backend services with Django and FastAPI.' 
   },
-  { 
-    icon: 'cplusplus', 
-    name: 'C++', 
-    description: 'Experience with system-level programming and algorithms, optimizing performance for resource-intensive applications.' 
+  {
+    icon: 'cplusplus',
+    name: 'C++',
+    description: 'Experience with system-level programming and algorithms, optimizing performance for resource-intensive applications.'
+  },
+  {
+    icon: 'c',
+    name: 'C',
+    description: 'Strong foundation in low-level programming, memory management, and data structures underpinning modern software systems.'
   },
   { 
     icon: 'html5', 
@@ -98,10 +103,25 @@ const techStack: TechItem[] = [
     name: 'MongoDB', 
     description: 'Working with NoSQL databases to store flexible, JSON-like documents for scalable and high-volume data applications.' 
   },
-  { 
-    icon: 'postgresql', 
-    name: 'PostgreSQL', 
-    description: 'Leveraging advanced SQL features, reliable transactions, and extensions for sophisticated data modeling needs.' 
+  {
+    icon: 'postgresql',
+    name: 'PostgreSQL',
+    description: 'Leveraging advanced SQL features, reliable transactions, and extensions for sophisticated data modeling needs.'
+  },
+  {
+    icon: 'hibernate',
+    name: 'Hibernate',
+    description: 'Mapping Java objects to relational schemas with Hibernate ORM for seamless, maintainable data access layers.'
+  },
+  {
+    icon: 'sequelize',
+    name: 'Sequelize',
+    description: 'Modeling and querying relational data in Node.js applications with a promise-based ORM.'
+  },
+  {
+    icon: 'sqlalchemy',
+    name: 'SQLAlchemy',
+    description: 'Building and querying Python data models with SQLAlchemy for FastAPI and Django backend services.'
   },
   { 
     icon: 'aws', 

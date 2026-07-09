@@ -13,30 +13,30 @@ export interface ExperienceItem {
 export const experiences: ExperienceItem[] = [
   {
     id: 'gscore',
-    role: 'Software Engineer',
-    company: 'GScore Solutions',
+    role: 'Founding Software Engineer',
+    company: 'GScore IT Solutions',
     location: 'Remote, US',
     period: 'May 2025 - present',
     points: [
       {
-        summary: 'Built Gen AI prototypes for government/finance, validating feasibility via client demos.',
-        detail: 'Delivered end-to-end Gen AI prototypes for enterprise clients across government and financial sectors, designing backend systems and APIs to validate production feasibility through iterative client demonstrations.'
+        summary: 'Architected production-grade GenAI pipelines with dynamic model routing to optimize cost and performance.',
+        detail: 'Architected production-grade GenAI pipelines by integrating closed-source and locally trained models, enabling dynamic model routing based on query complexity to optimize inference performance and compute costs.'
       },
       {
-        summary: 'Built dual-intent AI chatbot (SQL gen + RAG), cutting query time to <500ms.',
-        detail: 'Reduced query response time to <500ms by building dual-intent AI chatbot implementing natural language-to-SQL generation and RAG-based document Q&A with role-based access control for 7 user types.'
+        summary: 'Built event-driven email automation processing ~400 emails daily, cutting manual triage by 70%.',
+        detail: 'Engineered an event-driven email automation system for enterprise clients using RabbitMQ, processing ~400 emails daily and reducing manual triage time by 70% through asynchronous workflow management.'
       },
       {
-        summary: 'Architected email workflow automation for 200+ daily emails using microservices & RabbitMQ.',
-        detail: 'Architected and built email-based workflow automation prototype processing 200+ daily emails with event-driven microservices and RabbitMQ message queues, following production-ready design principles for seamless migration.'
+        summary: 'Architected and scaled backend systems, engineering robust FastAPI applications for AI services and dashboards.',
+        detail: 'Architected and scaled foundational backend systems, dedicating most development efforts to engineering robust FastAPI applications that delivered critical AI services and RESTful APIs for data-intensive executive dashboards and enterprise applications.'
       },
       {
-        summary: 'Built robust CI/CD pipeline (GitHub Actions, Docker) ensuring 99.8% uptime for email service.',
-        detail: 'Engineered a robust CI/CD pipeline using GitHub Actions and Docker to automate testing and deployment, ensuring 99.8% uptime for the email processing service across 5 distinct environments.'
+        summary: 'Owned full CI/CD lifecycle via GitHub Actions and AWS CDK, maintaining 99.8% uptime.',
+        detail: 'Owned the full CI/CD lifecycle via GitHub Actions and AWS CDK, maintaining 99.8% uptime backed by AWS CloudWatch for AI-driven executive dashboards and scaling infrastructure to support data-intensive React/TypeScript applications.'
       },
       {
-        summary: 'Led technical coordination, defined APIs, and gathered requirements for dashboard prototypes.',
-        detail: 'Led technical coordination across frontend and QA teams, defining API contracts, gathering client requirements through iterative demos, and delivering integrated prototype solutions for enterprise dashboards.'
+        summary: 'Accelerated product iteration by 30% by integrating agentic AI tools (Cursor, Claude) into the workflow.',
+        detail: 'Accelerated product iteration cycles by 30% by integrating agentic AI tools (Cursor, Claude) into the development workflow, enabling rapid feature delivery and complex architectural refactoring.'
       }
     ]
   },
@@ -73,24 +73,45 @@ export const experiences: ExperienceItem[] = [
     period: 'Jan 2025 – May 2025',
     points: [
       {
-        summary: 'Led full-stack Java/React app development, boosting club efficiency and engagement.',
-        detail: 'Spearheaded the core development of a full-stack web application using JAVA and React.js, improving the club’s operational efficiency and member engagement through a responsive UI and secure backend services.'
+        summary: 'Spearheaded a full-stack Java/React app, boosting user engagement by 40%.',
+        detail: 'Spearheaded the end-to-end development of a full-stack web application using Java, Spring Boot, and React.js, boosting user engagement by 40% through secure backend services and responsive UI design.'
       },
       {
-        summary: 'Defined specs and technical roadmap through stakeholder analysis sessions.',
-        detail: 'Conducted requirements gathering and system analysis sessions with stakeholders to define functional specifications and prioritize high-impact features, establishing a clear technical roadmap for the web platform.'
+        summary: 'Designed MySQL schemas via Hibernate and secure APIs, optimizing response times by 30% for 500+ users.',
+        detail: 'Designed scalable MySQL schemas via Hibernate ORM and implemented secure RESTful APIs with CSRF protection and cookie-based authorization, optimizing response times by 30% for 500+ active users.'
       },
       {
-        summary: 'Built secure Spring REST APIs with cookie auth and CSRF protection.',
-        detail: 'Designed and implemented secure RESTful APIs with Spring, employing Cookie-based authorization, CSRF protection, and robust session management to safeguard user data.'
+        summary: 'Accelerated deployment cycles by 60% and achieved 99.9% availability migrating to AWS LightSail.',
+        detail: 'Accelerated deployment cycles by 60% and achieved 99.9% system availability by migrating infrastructure from on-premises servers to AWS LightSail and establishing automated CI/CD pipelines.'
+      }
+    ]
+  },
+  {
+    id: 'ltimindtree',
+    role: 'Software Engineer',
+    company: 'LTIMindtree',
+    location: 'Remote, India',
+    period: 'Sep 2021 – Aug 2023',
+    points: [
+      {
+        summary: 'Developed backend microservices for a financial services client, increasing throughput by 18%.',
+        detail: 'Developed robust backend microservices using Java, Spring Boot, and Hibernate for a financial services client, increasing system throughput by 18% for secure transaction processing.'
       },
       {
-        summary: 'Designed scalable MySQL schemas and managed data with Hibernate ORM.',
-        detail: 'Modeled and managed relational data effectively by designing scalable MySQL database schemas and utilizing Hibernate ORM for seamless interaction between the application and database.'
+        summary: 'Orchestrated containerized Java services on Kubernetes/Azure, reducing downtime by 15%.',
+        detail: 'Orchestrated containerized Java services using Kubernetes and deployed enterprise applications on Microsoft Azure, reducing downtime by 15% and ensuring high availability during peak financial operations.'
       },
       {
-        summary: 'Migrated from on-prem to AWS LightSail, creating a CI/CD pipeline for reliability.',
-        detail: 'Initially deployed application on on-premises server, later migrated to AWS LightSail enabling CI/CD pipeline, improving deployment reliability and scalability.'
+        summary: 'Integrated Kafka messaging for asynchronous inter-service communication across financial systems.',
+        detail: 'Integrated Kafka messaging queues for asynchronous inter-service communication, improving data consistency and reliability across distributed financial reporting systems.'
+      },
+      {
+        summary: 'Optimized PostgreSQL databases, decreasing query execution time by 28% for large-scale analytics.',
+        detail: 'Optimized complex PostgreSQL databases utilizing indexing and query tuning strategies, decreasing query execution time by 28% for large-scale analytics datasets.'
+      },
+      {
+        summary: 'Built user-centric React dashboards for financial reporting, cutting analysis time by 22%.',
+        detail: 'Designed and developed user-centric frontend dashboards using React for financial reporting teams, accelerating operational data accessibility and reducing analysis time for key performance metrics by 22%.'
       }
     ]
   }
